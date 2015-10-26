@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
+<<<<<<< HEAD
 [System.Serializable]//this make visible the variables of the class in another class
 //class that instanciate the variables for the frame of the camera
 public class Boundary{
@@ -34,10 +35,22 @@ public class Lk_Control : MonoBehaviour {
 		}
 	}
 
+=======
+public class Lk_Control : MonoBehaviour {
+	public float speed;
+	private Rigidbody rb;
+
+	// Use this for initialization
+	void Start () {
+		rb = GetComponent<Rigidbody> ();
+	
+	}
+>>>>>>> 1a53831ace3a1104514f5c540c234eb4ad435092
 	// Update is called once per frame
 	void FixedUpdate () {
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
+<<<<<<< HEAD
 
 		Vector2 movement = new Vector2 (moveHorizontal, moveVertical);
 		rb.velocity = movement * speed;
@@ -46,5 +59,10 @@ public class Lk_Control : MonoBehaviour {
 			Mathf.Clamp (rb.position.x, boundary.xMin, boundary.xMax),
 			Mathf.Clamp (rb.position.y, boundary.yMin, boundary.yMax)
 		);
+=======
+		Vector2 movement = new Vector2 (moveHorizontal, moveVertical);
+		rb.AddForce (movement * speed);
+
+>>>>>>> 1a53831ace3a1104514f5c540c234eb4ad435092
 	}
 }
