@@ -1,17 +1,10 @@
 fileFormatVersion: 2
 guid: 12dd0c2afcb04c146a23b43f854907ca
-<<<<<<< HEAD
 timeCreated: 1438719421
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: blue_space_by_darkdissolution-d4f7xkv.png_0
-=======
-timeCreated: 1438469724
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
->>>>>>> 1a53831ace3a1104514f5c540c234eb4ad435092
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -34,30 +27,18 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-<<<<<<< HEAD
   textureFormat: -2
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: 16
-=======
-  textureFormat: -1
-  maxTextureSize: 2048
-  textureSettings:
-    filterMode: -1
-    aniso: -1
->>>>>>> 1a53831ace3a1104514f5c540c234eb4ad435092
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> 1a53831ace3a1104514f5c540c234eb4ad435092
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,7 +47,6 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-<<<<<<< HEAD
   buildTargetSettings:
   - buildTarget: iPhone
     maxTextureSize: 2048
@@ -84,11 +64,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-=======
-  buildTargetSettings: []
-  spriteSheet:
-    sprites: []
->>>>>>> 1a53831ace3a1104514f5c540c234eb4ad435092
   spritePackingTag: 
   userData: 
   assetBundleName: 
